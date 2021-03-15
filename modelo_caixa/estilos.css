@@ -1,0 +1,9 @@
+#p1 {
+    font-size: 35px; /* Valor absoluto em pixels*/
+    color: rgb(255,0,0);
+    border:dashed;
+    background-color:rgb(0,255,255);
+    padding: 1em; /* relativo à largura de m no elemento pai */
+    margin: 0.5em;  /* relativo à largura de m no elemento pai */    
+}
+

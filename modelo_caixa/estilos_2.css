@@ -1,0 +1,8 @@
+#p2 {
+    font-size: 400%;/* Valor percentual relativo à fonte default do navegador. */
+    color: rgb(200,200,200);
+    border:solid;
+    background-color:rgb(50,50,50);
+    padding: 0em; /* relativo à largura de m no elemento pai */
+    margin: 0em;  /* relativo à largura de m no elemento pai*/    
+}
