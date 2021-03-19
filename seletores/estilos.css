@@ -1,0 +1,27 @@
+/* Autor: Fabrício Galende Marques de Carvalho */
+/* Exemplificando seletores */
+
+@font-face{
+	font-family: minha_fonte;
+	src: url('font/Allura-Regular.ttf');
+}
+
+
+#imagem{
+	display:block;
+	margin: auto;
+	width: 15%;
+}
+
+.titulo_centralizado{
+	text-align: center;
+}
+
+.assinatura{
+	font-family: minha_fonte;
+	text-align: center;
+}
+
+p{
+	font-family: courier;
+}

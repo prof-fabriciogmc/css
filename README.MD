@@ -9,4 +9,6 @@ LISTAGEM DOS EXEMPLOS:
 
 * sintaxe_basica: Descrição de elementos básicos da sintaxe CSS. Exemplo incluindo seleção por id, alinhamento através de margem automática, modificação de família tipográfica, altura e largura de imagem e alinhamento de um texto dentro de um elemento de bloco (título h1).
 
+* seletores: Exemplos de seletores de id, classe e tipo. Importando e utilizando um arquivo de fontes.
+
 
