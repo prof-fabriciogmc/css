@@ -21,5 +21,8 @@ Exemplos para estilos aplicáveis a parágrafos.
 * media_queries: Exemplificando media queries para layout e tamanho de
 imagens utilizadas em design responsivo.
 
+* filtros: Filtros de imagens raster. Exemplos de desfoque, tons de cinza,
+rotação de cores e opacidade.
+
 
 

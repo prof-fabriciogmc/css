@@ -1,0 +1,39 @@
+/* Autor: Fabrício Galende Marques de Carvalho */
+table, tr, th, td{
+	border-style: solid;
+}	
+
+table{
+	display: block;
+	width: 80%;
+	margin: auto;
+}
+
+td{
+	width: 50%;
+	text-align: center;
+}
+
+img{
+	display: block;
+	width: 75%;
+	margin: auto;
+}
+
+/* Exemplificando filtros.*/
+.borrado{
+	filter: blur(1px);
+}
+
+.escala_cinza{
+	filter: grayscale(100%);
+}
+
+.rotacao_cores{
+	filter: hue-rotate(180deg);
+}
+
+.opacidade{
+	filter: opacity(0.20);
+}
+
