@@ -11,6 +11,15 @@ LISTAGEM DOS EXEMPLOS:
 
 * seletores: Exemplos de seletores de id, classe e tipo. Importando e utilizando um arquivo de fontes.
 
-* estilos_reutilizaveis: Exemplos de seletor de pseudo-classe, validação visual e de criação de estilos reutilizáveis, similar ao utilizados por frameworks tais como Bootstrap, etc.
+* estilos_reutilizaveis: Exemplos de seletor de pseudo-classe, validação visual 
+e de criação de estilos reutilizáveis, similar ao utilizados por 
+frameworks tais como Bootstrap, etc.
+
+* cascateamento_e_precedencia: Precedência de regras, cascateamento e herança.
+Exemplos para estilos aplicáveis a parágrafos.
+
+* media_queries: Exemplificando media queries para layout e tamanho de
+imagens utilizadas em design responsivo.
+
 
 

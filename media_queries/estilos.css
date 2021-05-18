@@ -1,0 +1,40 @@
+body{
+	background-color: black;
+	color: white;
+}
+
+.div_responsiva{
+		display: inline-block;
+		box-sizing: border-box;
+		width: 50%;
+		height: 80vh;
+		border-style: solid;
+		vertical-align: top;
+		font-size: 1.5em;
+}
+.img_responsiva{
+		display: block;
+		width: 33%;
+		margin: auto;
+		text-align: center;
+}
+
+@media (max-width: 500px){
+	.div_responsiva{
+	display: block;
+	width: 100%;
+	height: auto;
+	}
+	.img_responsiva{
+		display: block;
+		width: 90%;
+		height: auto;
+	}
+}
+
+@media print{
+	body{
+		background-color: white;
+		color: black;
+	}
+}

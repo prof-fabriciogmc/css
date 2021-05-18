@@ -1,0 +1,44 @@
+/* Ambos os estilos são aplicados a p1 */
+#p1{
+	text-align: justify;
+	font-family: courier;
+	text-transform: none;
+}
+
+.texto_italico{
+	font-style: italic;
+}
+
+
+/* Somente o seletor de id, que é o
+mais específico, é aplicado a p2 */
+#p2{
+	font-family: times;
+	background-color: yellow;
+	color: black;
+	text-transform: none;
+}
+
+.texto_fundo_preto{
+	font-family: tahoma;
+	background-color: black;
+	color: white;
+}
+
+
+/* Para aplicar um uppercase, sublinhado, etc.,
+a um parágrafo, pode-se herdar a propriedade
+já especificada na seção onde ele pertence.
+*/
+section{
+	text-transform: uppercase;	
+}
+
+.texto_fonte_amarela{
+	color: yellow !important;
+}
+
+#p3{
+	background-color: blue;
+	color: white;
+}
