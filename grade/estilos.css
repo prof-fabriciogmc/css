@@ -1,0 +1,52 @@
+/* Descrição das propriedades:
+flex-direction: direção do eixo principal, ou
+seja, direção da disposição dos flex items;
+
+*/
+/* Configurando itens dispostos em linhas */
+
+.container_linha{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* sintaxe resumida: 
+    flex-flow: row wrap. */
+    justify-content: center;
+    /* flex-start, flex-end (eixo principal) */
+}
+.linha{
+    background-color:greenyellow;
+    width: 28%;
+    margin: 1%;
+    padding: 1%;   
+}
+
+.linha_proporcao{
+    background-color:greenyellow;
+    width: 28%;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    flex: 1
+}
+.linha_proporcao:nth-last-of-type(2){
+    flex: 3;
+}
+
+
+/* Configurando itens dispostos em coluna */
+
+.container_coluna{
+    display: flex;
+    flex-direction: column;
+    align-items:  center ;
+    /* alinhamento no eixo cruzado,
+    ** flex-start, flex-end */
+}
+
+.coluna{
+    background-color:aqua;
+    margin-bottom: 2vh; 
+    width: 50%;
+}
+
